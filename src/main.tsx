@@ -5,7 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div className='flex justify-center items-center w-full'>
+    <div className='flex justify-center items-center w-full bg-[#FF9D00]'>
          <App />
     </div>
   </React.StrictMode>,
