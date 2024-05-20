@@ -4,7 +4,7 @@ import { FiFileText } from "react-icons/fi";
 
 const HeroSection:React.FC = ()=>{
     return (<div className="flex justify-between items-center mx-0 px-0 text-white">
-        <div className="p-3 md:max-w-[450px] backdrop-blur-[5px] shadow-md m-3">
+        <div className="p-3 md:max-w-[450px] backdrop-blur-[5px] shadow-xl m-3">
             
             <h2 className="font-bold underline underline-offset-1 underline-red-500"><span className="text-yellow-300">Zenitsu</span> Agatsuma.</h2>
             <article>
@@ -16,7 +16,7 @@ const HeroSection:React.FC = ()=>{
                 <a href="#profile" className="inline-flex items-center justify-center bg-[rgba(2,3,3,8)] p-3 w-[150px] rounded-md text-1xl font-bold gap-2 cursor-pointer"><FiFileText/> Detail</a>
             </div>
         </div>
-        <div className="p-0 m-0 backdrop-blur-[4px] rounded-[1rem] w-full">
+        <div className="p-0 m-0  rounded-[1rem] w-full backdrop-blur-sm">
             <img src={Hero} alt="zenitsu" className="w-full"/>
         </div>
     </div>);
