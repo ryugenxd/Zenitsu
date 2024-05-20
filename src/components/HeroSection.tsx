@@ -4,16 +4,16 @@ import { FiFileText } from "react-icons/fi";
 
 const HeroSection:React.FC = ()=>{
     return (<div className="flex justify-between items-center mx-0 px-0 text-white">
-        <div className="p-3 md:max-w-[450px] backdrop-blur-[5px] shadow-xl m-3">
+        <div className="p-3 md:max-w-[450px] rounded-md backdrop-blur-[5px] shadow-xl m-3 bg-[rgba(2,3,3,0.48)]">
             
             <h2 className="font-bold underline underline-offset-1 underline-red-500"><span className="text-yellow-300">Zenitsu</span> Agatsuma.</h2>
-            <article>
-                <p>
+            <article className="mt-2sss">
+                <p className="text-bold">
                     Zenitsu Agatsuma adalah salah satu karakter utama dalam Kimetsu no Yaiba. Dia adalah seorang Demon Slayer yang sangat cengeng dan sering kali ketakutan. Meskipun begitu, dia memiliki bakat alami yang luar biasa dalam pertempuran, terutama ketika dia tidur dan tubuhnya mengambil alih untuk bertarung.
                 </p>
             </article>
             <div className="flex justify-end items-center w-full">
-                <a href="#profile" className="inline-flex items-center justify-center bg-[rgba(2,3,3,8)] p-3 w-[150px] rounded-md text-1xl font-bold gap-2 cursor-pointer"><FiFileText/> Detail</a>
+                <a href="#profile" className="inline-flex items-center justify-center bg-[rgba(2,3,3,8)] p-3 w-[150px] rounded-md text-1xl font-bold gap-2 cursor-pointer hover:bg-[#FF9D00] transition ease-in-out  hover:shadow-xl delay-[160] "><FiFileText/> Detail</a>
             </div>
         </div>
         <div className="p-0 m-0  rounded-[1rem] w-full backdrop-blur-sm">
