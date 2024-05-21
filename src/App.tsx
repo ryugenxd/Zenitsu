@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, HeroSection, Sidebar ,Overlay} from './components'
+import { Footer, Header, HeroSection, Sidebar ,Overlay,ProfileSection} from './components'
 import { BgHero } from './assets'
 
 const App:React.FC = () => {
@@ -9,6 +9,7 @@ const App:React.FC = () => {
       <Header/>
       <Sidebar/>
       <HeroSection/>
+      <ProfileSection/>
       <Footer/>
     </div>
   )
