@@ -5,7 +5,7 @@ const CardProfile:React.FC = ()=>{
     return (
         <div className="p-3 md:max-w-[450px] md:mx-4 rounded-md backdrop-blur-[5px] shadow-xl m-3 bg-[rgba(2,3,3,0.48)] font-zen">
             <div className="w-full mb-3">
-                <img src={Profile} className="w-full h-full object-cover"/>
+                <img src={Profile} className="w-full h-full object-cover rounded-md"/>
             </div>
             <div className="w-full">
             Name: Zenitsu Agatsuma

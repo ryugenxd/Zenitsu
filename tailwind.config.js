@@ -5,7 +5,8 @@ export default {
     fontFamily:{
       'zen':["Poppins","sans-serif"]
     },
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
