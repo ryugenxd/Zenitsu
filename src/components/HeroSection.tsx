@@ -2,7 +2,7 @@ import React from "react";
 import {Hero} from "../assets"
 import { FiFileText } from "react-icons/fi";
 import HorizontalShadow from "./HorizontalShadow";
-import {Element} from 'react-scroll';
+import {Element,Link} from 'react-scroll';
 
 const HeroSection:React.FC = ()=>{
     return (<Element name="home"  className="flex justify-between items-center max-[766px]:items-end mx-0 px-0 text-white h-screen relative" id="home">
@@ -16,7 +16,7 @@ const HeroSection:React.FC = ()=>{
                 </p>
             </article>
             <div className="flex justify-end items-center w-full m-3">
-                <a href="#profile" className="inline-flex items-center justify-center bg-[rgba(2,3,3,8)] p-3 w-[150px] rounded-md text-1xl font-bold gap-2 cursor-pointer hover:bg-[#0B4D81] transition ease-in-out  hover:shadow-xl delay-[160]  m-3"><FiFileText/> Detail</a>
+                <Link to="profile" smooth={true} duration={500}  className="inline-flex items-center justify-center bg-[rgba(2,3,3,8)] p-3 w-[150px] rounded-md text-1xl font-bold gap-2 cursor-pointer hover:bg-[#0B4D81] transition ease-in-out  hover:shadow-xl delay-[160]  m-3"><FiFileText/> Detail</Link>
             </div>
         </div>
         <div className="p-0 m-0  rounded-[1rem] w-full backdrop-blur-sm max-[766px]:absolute">
