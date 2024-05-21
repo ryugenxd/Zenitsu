@@ -2,9 +2,10 @@ import React from "react";
 import {Hero} from "../assets"
 import { FiFileText } from "react-icons/fi";
 import HorizontalShadow from "./HorizontalShadow";
+import {Element} from 'react-scroll';
 
 const HeroSection:React.FC = ()=>{
-    return (<div className="flex justify-between items-center max-[766px]:items-end mx-0 px-0 text-white h-screen relative" id="home">
+    return (<Element name="home"  className="flex justify-between items-center max-[766px]:items-end mx-0 px-0 text-white h-screen relative" id="home">
         <HorizontalShadow top="0" left="0"/>
         <div className="p-3 md:max-w-[450px] md:mx-4 rounded-md backdrop-blur-[5px] shadow-xl m-3 bg-[rgba(2,3,3,0.48)] font-zen  max-[766px]:z-[20]">
             
@@ -22,7 +23,7 @@ const HeroSection:React.FC = ()=>{
             <img src={Hero} alt="zenitsu" className="w-full"/>
         </div>
         <HorizontalShadow top="100%" left="0"/>
-    </div>);
+    </Element>);
 }
 
 export default HeroSection;
