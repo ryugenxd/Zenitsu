@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=https://mastercodebrain.com/Zenitsu/",
+    "build": "tsc && vite build --base=https://gemmagen.github.io",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"rm -rf ../gemmagen.github.io/*;cp -rf ./dist/* ../gemmagen.github.io/;cd ../gemmagen.github.io/;git add .;git commmit -m 'test: deployment';git push;"
   },
   "dependencies": {
     "@types/react-scroll": "^1.8.10",
