@@ -41,7 +41,7 @@ const Footer:React.FC = ()=>{
                 <li  className="md:text-end  underline underline-offset-4">Programmer Indonesia Comunity</li>
             </ul>
         </div>
-        <p className="text-white font-zen sm:text-sm p-2 whitespace-nowrap mx-0 w-full text-end max-[750px]:text-center">© 2024 Zenitsu Fan Site. All Rights Reserved.</p>
+        <p className="text-white font-zen sm:text-sm px-3 whitespace-nowrap mx-0 w-screen text-end max-[750px]:text-center">© 2024 Zenitsu Fan Site. All Rights Reserved.</p>
         <HorizontalShadow top="100%" left="0"/>
     </footer>);
 }
