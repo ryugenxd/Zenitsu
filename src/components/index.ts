@@ -4,6 +4,10 @@ import HeroSection from "./HeroSection";
 import Sidebar from "./Sidebar";
 import Overlay from "./Overlay";
 import ProfileSection from "./ProfileSection";
+import GallerySection from "./GallerySection";
+import ContactSection from "./ContactSection";
+import QuotesSection from "./QuotesSection";
+import BattleSection from "./BattleSection";
 
 export {
     Footer,
@@ -11,5 +15,9 @@ export {
     HeroSection,
     Sidebar,
     Overlay,
-    ProfileSection
+    ProfileSection,
+    GallerySection,
+    QuotesSection,
+    BattleSection,
+    ContactSection
 }
